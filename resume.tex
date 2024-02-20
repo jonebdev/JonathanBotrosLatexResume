@@ -70,7 +70,7 @@
 
 \newcommand{\resumeSubheading}[4]{
   \vspace{-2pt}\item
-    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \begin{tabular*}{0.95\textwidth}[t]{l@{\extracolsep{\fill}}r}
       \textbf{#1} & #2 \\
       \textit{\small#3} & \textit{\small #4} \\
     \end{tabular*}\vspace{-7pt}
@@ -94,7 +94,7 @@
 
 \renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
 
-\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.10in, label={}]}
 \newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
 \newcommand{\resumeItemListStart}{\begin{itemize}}
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
@@ -156,19 +156,20 @@
       {Lead Software Engineer}{April. 2023 -- Present}
       {Kenvue (Formerly Known as Johnson \& Johnson Consumer Health)}{Skillman, NJ}
       \resumeItemListStart
-        \resumeItem{Lead Platform Engineer for Kenvue's Software Engineering Portal, built with Typescript, React and Express.js, that improved developer productivity by allowing engineers to catalog  projects, integrate with DevOps tooling, and allows developers to quickly stand up new projects with CI/CD pipelines through a simple form. }
-        \resumeItem{Enabling Software Engineering standards across the across the organization, giving guidance and standards for enabling adoption for lightweight, containerized microservices. Containerized lubriderm.com, motrin.com and several other high profile sites deployed them on to a shared Kubernetes cluster. }
+        \resumeItem{Lead Platform Engineer for Kenvue's Software Engineering Portal, built with Typescript, React and Express.js, through Backstage.io, an open source framework for building developer portals. The portal allowed teams to catalog their projects, request CI/CD tooling, view documentation and create new projects via templates. }
+        \resumeItem{Lead creation of Software Engineering templates for internal Software Engineering portal. New projects from templates comes enabled with logging, linting, unit tests and CI/CD pipelines through a simple form.}
+        \resumeItem{Enabling Software Engineering standards \& practices across the organization, giving guidance and standards for adoption of lightweight, containerized microservices. Containerized lubriderm.com, motrin.com and several other high profile websites and deployed them on to a shared Kubernetes cluster as a part of this effort. }
     \resumeItemListEnd
 
     \resumeSubheading
       {Senior Software Developer}{May 2022 -- March 2023}
       {Johnson \& Johnson}{Raritan, NJ}
       \resumeItemListStart
-        \resumeItem{Developed an internal mobile application for labeling images built in React Native where the data generated trained 10+ supervised machine learning models to be used in Ethicon Products.}
-        \resumeItem{Established CI/CD Jenkins pipeline for the app portal which ran unit tests, lints backend code, runs static analysis via
-Sonarqube, and deploys to the various EC2 environments which resulted in increased developer efficiency.}
+        \resumeItem{Developed an internal mobile application for labeling images built with React Native, where the data generated trained 10+ supervised machine learning models to be used in future Ethicon Products.}
+        \resumeItem{Established CI/CD Jenkins pipeline for the web portal which ran unit tests, lints backend code, ran static analysis via
+Sonarqube, and deployed to the various EC2 environments which resulted in increased developer efficiency.}
         \resumeItem{Rearchitected frontend web portal with React.js solution built with Vite, Tailwind and Typescript for the data science
-team to visualize data captured from the app and carry out administrative tasks more effectively.}
+team to visualize data captured from the mobile app and carry out administrative tasks more effectively.}
       \resumeItemListEnd
 
     \resumeSubheading
@@ -177,9 +178,8 @@ team to visualize data captured from the app and carry out administrative tasks 
       \resumeItemListStart
         \resumeItem{ Lead Backend PHP Developer for Care4Today, a mobile app that connected patients to their doctor to keep track of
 their symptoms, medication adherence and appointments. New trackers were developed so that those metrics could be aggregated to generate a Risk Score, which resulted in 100 {plus} new sites onboarded for clinical studies.}
-        \resumeItem{ Developed serverless Node.js REST API for an internal mobile app to retrieve hashed codes stored in a PostgreSQL database for the Janssen Covid Vaccine.}
-        \resumeItem{ Backend Node.JS API Developer for the Johnson and Johnson API Catalog,  which hosts over 150 APIs across Johnson \& Johnson for internal discovery. Developed CI/CD tools to enable teams to upload their OpenAPI docs to the API Catalog}
-
+        \resumeItem{ Developed serverless Node.js REST API for an internal mobile app to retrieve hashed codes stored in a PostgreSQL database for the Janssen Covid Vaccine, so lab workers can determine if the vaccine was expired.}
+        \resumeItem{ Backend Node.JS Developer for the J\&J API Catalog,  which hosts over 150 APIs across Johnson \& Johnson for internal discovery. Developed CI/CD tools to enable teams to upload their OpenAPI docs to the API Catalog. }
       \resumeItemListEnd
         \resumeSubheading
       {Software Engineering Co-op}{June 2020 -- May 2022}
@@ -219,10 +219,9 @@ Bitbucket, SonarQube, and Jenkins, resulting in valuable metrics for over 100 ac
 \section{Technical Skills}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{Languages}{: Javascript, Typescript, Python, PHP, Bash, Java, HTML, CSS, Groovy} \\
-     \textbf{Frameworks}{: React, Node.js, Flask, JUnit, WordPress, Material-UI, FastAPI} \\
-     \textbf{Developer Tools}{: Git, Docker, Kubernetes, Jenkins, AWS, Apigee, VSCode, Jenkins, Jira, ArgoCD} \\
-     \textbf{Libraries}{: pandas, NumPy, Matplotlib}
+     \textbf{Languages}{: Javascript, Typescript, Python, PHP, Bash, PostgreSQL, Java, HTML, CSS, Groovy} \\
+     \textbf{Frameworks}{: React, Express.js, Next.js, React Native, FastAPI, Symfony, Backstage} \\
+     \textbf{Developer Tools}{: Git, Docker, Kubernetes, Jenkins, Vite, AWS, Apigee, VSCode, Jenkins, Jira, Helm, Snyk, ArgoCD} \\
     }}
  \end{itemize}
 
